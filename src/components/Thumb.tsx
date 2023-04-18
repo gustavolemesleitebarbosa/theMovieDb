@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Image from 'next/legacy/image';
+
 
 type Props = {
   imgUrl: string
@@ -7,9 +8,9 @@ type Props = {
 const Thumb = ({ imgUrl }: Props) => (
   <Image
     placeholder="blur"
-    blurDataURL="/placeholder.jpg"
+    blurDataURL='/spinner.svg'
     className="rounded-lg"
-    fill
+    layout='fill'
     style={{ objectFit: 'cover' }}
     src={imgUrl}
     alt="thumb"
