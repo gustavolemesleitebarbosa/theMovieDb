@@ -5,7 +5,7 @@ type Props = {
   title: string;
   text: string
 }
-
+// hero image
 const Hero = ({ imgUrl, title, text }: Props) => {
   return (
     <div className=' relative w-full h-128'>
