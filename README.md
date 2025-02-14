@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is is a nexJs application that displays serveral movies information getting data from movie database. It uses Tanstack query for data fetching (caching data to optimize performance) and for state management. To run it just use the default commands to run a NextJs project using npm or yarn
 
 ## Getting Started
 
